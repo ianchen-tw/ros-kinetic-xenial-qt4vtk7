@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dev:
+    build:
+      context: .      
+    image: 'ianre657/ros-kinetic-xenial-qt4vtk7'
+    command: bash -c 'echo this is a base img'
